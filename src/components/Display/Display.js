@@ -17,6 +17,21 @@ const Display = () => {
         setCart(newCart);
     };
 
+    const addedItems = cart;
+    console.log(addedItems);
+
+
+    const handleRandomButton = () => {
+        setCart([]);
+    }
+
+
+    const cartRefreshButton = () => {
+        setCart([]);
+    }
+
+
+
     return (
         <div className='main-container'>
             <div className="pen-container">
@@ -25,7 +40,7 @@ const Display = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} randomButton={handleRandomButton} cartDeleteButton={cartRefreshButton}></Cart>
             </div>
         </div >
     );
