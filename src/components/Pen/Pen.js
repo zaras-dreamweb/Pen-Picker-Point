@@ -5,16 +5,16 @@ import './Pen.css'
 
 
 const Pen = ({ pen, addToCart }) => {
-    const { name, price, picture } = pen;
+    const { name, price, picture, id } = pen;
     return (
         <div className='card-container'>
             <img src={picture} alt="" />
-
             <div className="card-information">
                 <p><strong>Name:</strong> {name}</p>
+                <p><strong>Id:</strong>{id}</p>
                 <p><strong>Price:</strong> {price}</p>
             </div>
-            <button onClick={() => addToCart(name)} className='cart-btn'>
+            <button onClick={() => addToCart(pen)} className='cart-btn'>
                 <p>Add To Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>

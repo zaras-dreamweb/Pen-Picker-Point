@@ -12,18 +12,14 @@ const Display = () => {
             .then(data => setPens(data))
     }, []);
 
-    const addToCart = (pen) => {
-
-        const newCart = [...cart, pen];
+    const addToCart = (item) => {
+        const newCart = [...cart, item];
         setCart(newCart);
-
-
     };
 
     return (
         <div className='main-container'>
             <div className="pen-container">
-
                 {
                     pens.map(pen => <Pen key={pen.id} pen={pen} addToCart={addToCart}></Pen>)
                 }
@@ -31,7 +27,7 @@ const Display = () => {
             <div className="cart-container">
                 <Cart cart={cart}></Cart>
             </div>
-        </div>
+        </div >
     );
 };
 
