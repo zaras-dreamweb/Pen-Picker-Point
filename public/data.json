@@ -1,0 +1,56 @@
+[
+    {
+        "id": "4",
+        "name": "Dart Pen",
+        "picture": "https://stylesatlife.com/wp-content/uploads/2018/09/Dip-pen.jpg.webp",
+        "price": 19
+    },
+    {
+        "id": "5",
+        "name": "Parker Pen",
+        "picture": "https://staticecp.uprinting.com/179/700x700/Ellipse_Retractable_Pens_Marketing_Materials_A.jpg",
+        "price": 40
+    },
+    {
+        "id": "3",
+        "name": "Pin Point",
+        "picture": "https://ychef.files.bbci.co.uk/976x549/p08wqbyf.jpg",
+        "price": 24
+    },
+    {
+        "id": "1",
+        "name": "Metador Pen",
+        "picture": "https://anobashop.com/2509-large_default/matador-classic-pen-pack-of-20.jpg",
+        "price": 25
+    },
+    {
+        "id": "2",
+        "name": "Olympia Pen",
+        "picture": "https://www.boxesbyboudreau.com/wp-content/uploads/2021/12/IMG_0189.jpg",
+        "price": 20
+    },
+    {
+        "id": "6",
+        "name": "Vista Pen",
+        "picture": "https://pyxis.nymag.com/v1/imgs/112/8c0/ed8ea36537a6e018d206a8710adfd34f97-pilot-g2-ultra-fine.2x.rhorizontal.w600.jpg",
+        "price": 30
+    },
+    {
+        "id": "7",
+        "name": "Wodden Pen",
+        "picture": "https://www.nibs.com/sites/default/files/product_images/pens/upload/sailor/sailor-precious-wood-old-teak-feature.jpg",
+        "price": 35
+    },
+    {
+        "id": "8",
+        "name": "Tortoise Pen",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/51DcMWemmOL.jpg",
+        "price": 20
+    },
+    {
+        "id": "9",
+        "name": "Glitter Pen",
+        "picture": "https://funshinepens.com/wp-content/uploads/2021/11/FunShine-Pens-Hot-Pink.png",
+        "price": 23
+    }
+]

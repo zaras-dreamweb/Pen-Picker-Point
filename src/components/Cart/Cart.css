@@ -1,0 +1,25 @@
+.cart-info{
+    background-color: rgb(240, 240, 240);
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+
+.cart-info h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.double-btn {
+    padding-top: 80px;
+
+}
+
+.double-btn button{
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(74, 185, 170);
+    border: none;
+}
