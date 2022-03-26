@@ -5,7 +5,7 @@ const Cart = ({ cart, handleRandomButton, cartRefreshButton }) => {
 
     return (
         <div className='cart-info'>
-            <h1>Order Summery</h1>
+            <h1>Your Order Summery</h1>
             <div className="item-name">
                 {
                     cart.map(item => <h3 key={item.price}>

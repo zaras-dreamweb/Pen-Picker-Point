@@ -14,11 +14,14 @@ const Display = () => {
 
     const addToCart = (item) => {
         const newCart = [...cart, item];
-        setCart(newCart);
+        if (newCart.length > 4) {
+            alert("Can't add more to cart!")
+        }
+        else {
+            setCart(newCart);
+        }
+
     };
-
-
-
 
     const handleRandomButton = () => {
         let addedItem = cart;
@@ -26,13 +29,11 @@ const Display = () => {
         let random = addedItem[Math.floor(Math.random() * addedItem.length)];
         randomArray.push(random);
         setCart(randomArray);
-    }
-
+    };
 
     const cartRefreshButton = (cart) => {
         setCart([]);
-
-    }
+    };
 
 
 
