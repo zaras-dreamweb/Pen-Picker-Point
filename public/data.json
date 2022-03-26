@@ -15,7 +15,7 @@
         "id": "3",
         "name": "Pin Point",
         "picture": "https://ychef.files.bbci.co.uk/976x549/p08wqbyf.jpg",
-        "price": 24
+        "price": 50
     },
     {
         "id": "4",
@@ -45,7 +45,7 @@
         "id": "8",
         "name": "Tortoise Pen",
         "picture": "https://images-na.ssl-images-amazon.com/images/I/51DcMWemmOL.jpg",
-        "price": 20
+        "price": 70
     },
     {
         "id": "9",

@@ -8,7 +8,7 @@ const Cart = ({ cart, handleRandomButton, cartRefreshButton }) => {
             <h1>Order Summery</h1>
             <div className="item-name">
                 {
-                    cart.map(item => <h3 key={item.id}>
+                    cart.map(item => <h3 key={item.price}>
                         <img className='logo-img' src={item.picture} alt="" />{item.name}
                     </h3>)
                 }
