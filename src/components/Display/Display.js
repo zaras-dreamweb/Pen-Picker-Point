@@ -17,17 +17,21 @@ const Display = () => {
         setCart(newCart);
     };
 
-    const addedItems = cart;
-    console.log(addedItems);
+
 
 
     const handleRandomButton = () => {
-        setCart([]);
+        let addedItem = cart;
+        const randomArray = [];
+        let random = addedItem[Math.floor(Math.random() * addedItem.length)];
+        randomArray.push(random);
+        setCart(randomArray);
     }
 
 
-    const cartRefreshButton = () => {
+    const cartRefreshButton = (cart) => {
         setCart([]);
+
     }
 
 
@@ -40,7 +44,7 @@ const Display = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart} randomButton={handleRandomButton} cartDeleteButton={cartRefreshButton}></Cart>
+                <Cart cart={cart} handleRandomButton={handleRandomButton} cartRefreshButton={cartRefreshButton}></Cart>
             </div>
         </div >
     );
