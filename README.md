@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live website link
 
-Click here for live website link <pgrm-hero-assign-8.netlify.app>
+Click here for live website link [link]:<pgrm-hero-assign-8.netlify.app>
 
 ## Available Scripts
 
