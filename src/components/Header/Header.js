@@ -1,10 +1,12 @@
+import { faPenFancy } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Header.css'
 
 const Header = () => {
     return (
         <div className='header'>
-            <p>Pen Picker Point</p>
+            <p> <FontAwesomeIcon icon={faPenFancy}></FontAwesomeIcon> Pen Picker Point</p>
         </div>
     );
 };
